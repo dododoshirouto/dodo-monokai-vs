@@ -1,0 +1,28 @@
+{
+    "name": "theme-dodo-monokai",
+    "displayName": "Dodo Monokai Theme",
+    "description": "Monokai theme for Visual Studio Code by Dododo-Shirouto",
+    "version": "1.0.0",
+    "publisher": "dododoshirouto",
+    "license": "MIT",
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "id": "Dodo-Monokai",
+                "label": "Dodo Monokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dodo-monokai-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dododoshirouto/dodo-monokai-vs.git"
+    }
+}
